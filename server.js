@@ -1,10 +1,9 @@
 const express = require('express');
-const serverConfig = require('./configs/server.config');
+const serverConfig = require('/config/workspace/IdeaApp/configs/server.config');
 const mongoose = require('mongoose');
-const dbConfig = require('./configs/db.config');
-const userModel = require('./models/user.model');
+const dbConfig = require('/config/workspace/IdeaApp/configs/db.config');
+const userModel = require('/config/workspace/IdeaApp/models/user.model');
 const bcrypt = require('bcrypt');
-
 
 const app = express();
 
